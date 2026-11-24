@@ -1,7 +1,7 @@
 # Travel Group Social System With Chat - PHP & MYSQL + Chatbot
 
 
-[![Real-time Chat](https://img.shields.io/badge/Feature-Real--time%20Chat-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktY2hhdC1maWxsIiB2aWV3Qm94PSIwIDAgMTYgMTYiPgogIDxwYXRoIGQ9Ik04IDE1YTYuOTkgNi45OSAwIDAgMCA4LTYuNzE5Yy4wNzQtLjQ0LjEzMi0uODQ0LjE0OS0xLjIwNWEyLjY0NyAyLjY0NyAwIDAgMS0uNzE4LTMuNzU1QzE0LjQ4NSA0LjE4MiAxMy40IDMuNjQ1IDEyLjQ0MSAzLjI2MWE2Ljk2OSA2Ljk2OSAwIDAgMC05LjY1MS0uMTQyYzMuMzUzIDQuMTE3IDEuNzgzIDcuMTg5IDQuMjUgOS45MjUgLjQ5My0uNTI0IDEuMDM2LS45NzIgMS41ODItMS4zNTRsLjMyLS4yMDZsLjQ2Ny0uMTU4Yy4wODItLjAyOC4xNjItLjA1Mi4yMy0uMDc5LjEzLS4wNTEuMjU4LS4wOTguMzg3LS4xNDMuNTc0LS4yMDQuNzgtLjIxOSAxLjAxMi0uMTcyLjIzMi4wNDYuNDUuMTEuNjU4LjE5LjE5Mi4wNzYuMzg4LjE1My41OC4yMzguMTIuMDUyLjI0Mi4xMDYuMzU4LjE2NC4xMTcuMDU4LjIzMS4xMjEuMzQyLjE4OC4xNDkuMDk1LjI5My4xOTcuNDMuMzA2LjEzLjEwMy4yNTguMjA5LjM4My4zMTYuMTc2LjE1LjM0OC4zMDMuNTEuNDU4LjQ2NS40MjcuODgxLjg2OCAxLjI1NSAxLjMwNi41ODMtLjE0MyAxLjI0Mi0uMzM4IDEuOTItLjU3YS43NS43NSAwIDAgMSAuNjk2LjIzNC43NS43NSAwIDAgMS0uMDk5Ljg0MmwtLjIyLjI1Yy0uMDM4LjA0My0uMDc2LjA4OC0uMTE1LjEzNGExLjAzIDEuMDMgMCAwIDAtLjE2NS4yMDNjLS4yMy4yNTMtLjQ1My41MS0uNjczLjc2OC0uMDU1LjA1OS0uMTExLjExOS0uMTY3LjE3OS0uMTEyLjEyMy0uMjI2LjI0Ni0uMzQuMzY4LS4yOTguMzEyLS41NjMuNTcxLS43MzYgLjc3NGEyLjQ2NyAyLjQ2NyAwIDAgMS0uNjcxLjk3QzUuNjA0IDE1LjE0NCAzLjMyNiAxNC42ODkgMiAxMy45NzcgMCA4IDAgMTEuMTE1LjAxNiA3LjE2NSAzLjAwMiA5LjI1MiA4IDE1eiIvPgo8L3N2Zz4=)](https://github.com/khdxsohee/travel-group-social-system)
+[![Real-time Chat](https://img.shields.io/badge/Feature-Real--time%20Chat-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktY2hhdC1maWxsIiB2aWV3Qm94PSIwIDAgMTYgMTYiPgogIDxwYXRoIGQ9Ik04IDE1YTYuOTkgNi45OSAwIDAgMCA4LTYuNzE5Yy4wNzQtLjQ0LjEzMi0uODQ0LjE0OS0xLjIwNWEyLjY0NyAyLjY0NyAwIDAgMS0uNzE4LTMuNzU1QzE0LjQ4NSA0LjE4MiAxMy40IDMuNjQ1IDEyLjQ0MSAzLjI2MWE2Ljk2OSA2Ljk2OSAwIDAgMC05LjY1MS0uMTQyYzMuMzUzIDQuMTE3IDEuNzgzIDcuMTg5IDQuMjUgOS45MjUgLjQ5My0uNTI0IDEuMDM2LS45NzIgMS41ODItMS4zNTRsLjMyLS4yMDZsLjQ2Ny0uMTU4Yy4wODItLjAyOC4xNjItLjA1Mi4yMy0uMDc5LjEzLS4wNTEuMjU4LS4wOTguMzg3LS4xNDMuNTc0LS4yMDQuNzgtLjIxOSAxLjAxMi0uMTcyLjIzMi4wNDYuNDUuMTEuNjU4LjE5LjE5Mi4wNzYuMzg4LjE1My41OC4yMzguMTIuMDUyLjI0Mi4xMDYuMzU4LjE2NC4xMTcuMDU4LjIzMS4xMjEuMzQyLjE4OC4xNDkuMDk1LjI5My4xOTcuNDMuMzA2LjEzLjEwMy4yNTguMjA5LjM4My4zMTYuMTc2LjE1LjM0OC4zMDMuNTEuNDU4LjQ2NS40MjcuODgxLjg2OCAxLjI1NSAxLjMwNi41ODMtLjE0MyAxLjI0Mi0uMzM4IDEuOTItLjU3YS43NS43NSAwIDAgMSAuNjk2LjIzNC43NS43NSAwIDAgMS0uMDk5Ljg0MmwtLjIyLjI1Yy0uMDM4LjA0My0uMDc2LjA4OC0uMTE1LjEzNGExLjAzIDEuMDMgMCAwIDAtLjE2NS4yMDNjLS4yMy4yNTMtLjQ1My41MS0uNjczLjc2OC0uMDU1LjA1OS0uMTExLjExOS0uMTY3LjE3OS0uMTEyLjEyMy0uMjI2LjI0Ni0uMzQuMzY4LS4yOTguMzEyLS41NjMuNTcxLS43MzYgLjc3NGEyLjQ2NyAyLjQ2NyAwIDAgMS0uNjcxLjk3QzUuNjA0IDE1LjE0NCAzLjMyNiAxNC42ODkgMiAxMy45NzcgMCA4IDAgMTEuMTE1LjAxNiA3LjE2NSAzLjAwMiA5LjI1MiA4IDE1eiIvPgo8L3N2Zz4=)](https://github.com/farhan-swe/travel-group-social-system)
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -9,9 +9,9 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![AJAX](https://img.shields.io/badge/AJAX-blue?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
 [![XAMPP](https://img.shields.io/badge/XAMPP-F37623?style=for-the-badge&logo=apache&logoColor=white)](https://www.apachefriends.org/)
-[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg?style=for-the-badge)](https://github.com/khdxsohee/Travel-Group-Social-System-PHP-MYSQL)
-[![Project Status: Active](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)](https://github.com/khdxsohee/Travel-Group-Social-System-PHP-MYSQL)
-[![Built with Love](https://img.shields.io/badge/Built%20with-Love%20%E2%9D%A4%EF%B8%8F-ff69b4.svg?style=for-the-badge)](https://github.com/khdxsohee/Travel-Group-Social-System-PHP-MYSQL)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg?style=for-the-badge)](https://github.com/farhan-swe/Travel-Group-Social-System-PHP-MYSQL)
+[![Project Status: Active](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)](https://github.com/farhan-swe/Travel-Group-Social-System-PHP-MYSQL)
+[![Built with Love](https://img.shields.io/badge/Built%20with-Love%20%E2%9D%A4%EF%B8%8F-ff69b4.svg?style=for-the-badge)](https://github.com/farhan-swe/Travel-Group-Social-System-PHP-MYSQL)
 
 
 
@@ -50,10 +50,10 @@ A fully functional social networking web application built with **PHP** and **My
 - It contains all tables and seed data required for the application to run.
 
 ---
-[![Group Chats](https://img.shields.io/badge/Feature-Group%20Chats-seagreen?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktZ3JvdXAtZmlsbCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNCA4YS43NS43NSAwIDAgMS0uNzUuNzVoLS41YTYuNjM3IDYuNjM3IDAgMCAxLS42ODQtLjA1MiAxLjI1IDEuMjUgMCAwIDEtLjkyNy0xLjA5OSAxLjI2MSAxLjI2MSAwIDAgMSA1LTEuMTMzIDEuMjQ2IDEuMjQ2IDAgMCAxLS45NDctLjgyMyAxLjI2MSAxLjI2MSAwIDAgMS0uNjI0LTIuMjU5IDEuMjUxIDEuMjUxIDAgMCAxLS4xNzctLjA3OCAxLjI2IDEuMjYgMCAwIDEtLjAyMS0uMDIzVjIuMjc4YTEuMjUgMS4yNSAwIDAgMS0uMTk5LS4xNjIgMS4yNSA1LjA0IDAgMCAwLTEuNzItMi4zNjRsLS4xNDQtLjA4Mi0uMDctLjAzNWEuMTY2LjE2NiAwIDAgMS0uMDI5LS4wMjZMMCA0LjI5OXYuMDAyYy40OTYgMi44NTEgMi40MDQgNS4yIDUuMjE2IDYuMDYzYTIuNSAyLjUgMCAwIDAgLjUwOC4xODdMMTAuMSAxMi42YTEuMjUuMTI1IDAgMCAxLS4yMTguOTc0LjcuNyAwIDAgMC0uMTUuMDExIDcuMDIgNy4wMiAwIDAgMC0uODk2LjE5NiAxLjI2NCAxLjI2NCAwIDAgMS0uOTg1LS42MjcgMS4yNjEgMS4yNjEgMCAwIDEtLjUwMi0uOTY2IDEuMjYgMS4yNiAwIDAgMC0uMDk5LS41NzcgMS42NzMgMS42NzMgMCAwIDEtLjE1NC0uNDU5LjI1LjI1IDAgMCAwLS4wODItLjIyYy0uMDMyLS4wMjMtLjA3LS4wNDMtLjEwOS0uMDYtLjM3Mi0uMTYtLjc0NC0uMzQ2LTEuMTY0LS43MTZhLjc1Ljc1IDAgMCAxLS4xOTktLjIwNi43NS43NSAwIDAgMS0uMjE4LS4xNTRsLS4yMDgtLjE2NmExLjIzNSAxLjIzNSAwIDAgMC0uMjQ4LS4xNTYgMi45NzcgMi45NzcgMCAwIDAtLjQ5Ny0uMjU1Yy0uMTQ0LS4wNTItLjI4Ny0uMDk3LS40MjctLjEzNmwtLjIyNi0uMDYxYy0uMDctLjAxNy0uMTQtLjAzNC0uMjEtLjA1Yy0uMDM1LS4wMDctLjA3LS4wMTUtLjEwNC0uMDIyYy0uMjE0LS4wNDItLjQyLS4wODQtLjYxNy0uMTI2bC0uMjQ3LS4wNTVhLjc1Ljc1IDAgMCAxLS4wMjQtLjAwN2MtLjIzMy0uMDI5LS40NTgtLjA1OC0uNjg2LS4wODZsLS4xOC0uMDI1Yy0uMTc4LS4wMjYtLjM1MS0uMDU1LS41MTYtLjA4NmwtLjI4NS0uMDU2Yy0uMTMtLjAyNC0uMjU1LS4wNDgtLjM3NS0uMDczbC0uNjIzLS4xMzVjLS4xMDQtLjAyNC0uMjA2LS4wNTItLjMwNS0uMDhMLjI2OCAyLjIyNWEuNzUuNzUgMCAwIDEtLjI1LS41OTdMLjQ1MS40NzlhLjc1.NzUgMCAwIDEtLjE0Ni0uODIyLjcuNyAwIDAgMC0uMDczLS4wMTNsLS4zMDgtLjAyYS42NTQuNjU0IDAgMCAxLS40MDItLjEzNmwtLjEwMS0uMDcyLS4wNi0uMDM4LS4wMzgtLjAyM2MtLjAyOC0uMDE4LS4wNTQtLjAzNC0uMDc5LS4wNDkuMDUuMDM0LjEwMS4wNjcuMTUuMTAzYy4xNzcuMTI5LjMxMy4zLjM5Mi41MTZMMi4yMy4wMmMuNDgxLS4yNy43NzMtLjUyIDEuMjg4LS45MDdhLjc1.NzUgMCAwIDEtLjAyMS0xLjI0My43NS43NSAwIDAgMC0uNjktLjI0Nmw0LjA3LS43MThjLS4xNjUtLjAyOS0uMzI1LS4wNjMtLjQ4LS4xMDItLjA5Mi0uMDIyLS4xNzctLjA0NS0uMjU1LS4wNjlMLjE4IDEzLjM4OWE3IDcgMCAwIDAgMTUuMjY4LjE2NC43NS43NSAwIDAgMC0uNjItLjUzMnYtLjk4NGExLjI1IDEuMjUgMCAwIDEtLjg0LS4yNjJjLS4zOTctLjMyNy0uOTAzLS41OTMtMS4zMjgtLjcyMi0uMDc0LS4wMjQtLjE1LS4wNDktLjIyNi0uMDc0bC0uMzE0LS4xMDNhNi45NzcgNi45NzcgMCAwIDAtLjA0NC0uMDE4Yy0uMDY2LS4wMjQtLjEyOC0uMDQ3LS4xODgtLjA3MWwtLjM1LS4xNTJhMS4yNTggMS4yNTggMCAwIDEtLjc0My0uMjY3LjQ3LjQ3IDAgMCAwLS4xLS4wNTMuNzUuNzUgMCAwIDEtLjc0Ny0uNDgxIDcuNTYgNy41NiAwIDAgMC0xLjM2LTEuNzcyYy0uNDgzLS40NDYtMS4wMzktLjgxNy0xLjYzNS0xLjExOC0uNzk0LS4zOTYtMS42NzMtLjU4OC0yLjYxNi0uNTkzYTEuMjU4IDEuMjU4IDAgMCAxLS45NDctLjQ5NSAxLjI2MSAxLjI2MSAwIDAgMS0uNzk0LTEuNzg2IDYuOTcgNi45NyAwIDAgMC0zLjUyMy0uNTg3IDIuNzMzIDIuNzMzIDAgMCAwLTIuNDI2LTMuNjY4Yy0uMTA5LS4xNDUtLjE5LS4zMTItLjIyLS41IDAtLjAwMiAwLS4wMDMgMC0uMDA1VjBhLjc0OS43NDkgMCAwIDEtLjc1LS43NWgtMi41YTEuMjUgMS4yNSAwIDAgMS0uMjE4LS45NzQuNy43IDAgMCAwLS4xNS0uMDExYTMuNjM1IDMuNjM1IDAgMCAwLS40NjItLjA4IDEuMjUgMS4yNSAwIDAgMS0uOTgtLjU1MmwtLjAyLS4wNjktLjAwMS0uMDAzYTEuMzkxIDEuMzkxIDAgMCAxLS40NjgtLjU3NkwtLjAxLjA4YTYuOTkgNi45OSAwIDAgMCA4LTE1eiIvPgo8L3N2Zz4=)](https://github.com/khdxsohee/travel-group-social-system)
+[![Group Chats](https://img.shields.io/badge/Feature-Group%20Chats-seagreen?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktZ3JvdXAtZmlsbCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNCA4YS43NS43NSAwIDAgMS0uNzUuNzVoLS41YTYuNjM3IDYuNjM3IDAgMCAxLS42ODQtLjA1MiAxLjI1IDEuMjUgMCAwIDEtLjkyNy0xLjA5OSAxLjI2MSAxLjI2MSAwIDAgMSA1LTEuMTMzIDEuMjQ2IDEuMjQ2IDAgMCAxLS45NDctLjgyMyAxLjI2MSAxLjI2MSAwIDAgMS0uNjI0LTIuMjU5IDEuMjUxIDEuMjUxIDAgMCAxLS4xNzctLjA3OCAxLjI2IDEuMjYgMCAwIDEtLjAyMS0uMDIzVjIuMjc4YTEuMjUgMS4yNSAwIDAgMS0uMTk5LS4xNjIgMS4yNSA1LjA0IDAgMCAwLTEuNzItMi4zNjRsLS4xNDQtLjA4Mi0uMDctLjAzNWEuMTY2LjE2NiAwIDAgMS0uMDI5LS4wMjZMMCA0LjI5OXYuMDAyYy40OTYgMi44NTEgMi40MDQgNS4yIDUuMjE2IDYuMDYzYTIuNSAyLjUgMCAwIDAgLjUwOC4xODdMMTAuMSAxMi42YTEuMjUuMTI1IDAgMCAxLS4yMTguOTc0LjcuNyAwIDAgMC0uMTUuMDExIDcuMDIgNy4wMiAwIDAgMC0uODk2LjE5NiAxLjI2NCAxLjI2NCAwIDAgMS0uOTg1LS42MjcgMS4yNjEgMS4yNjEgMCAwIDEtLjUwMi0uOTY2IDEuMjYgMS4yNiAwIDAgMC0uMDk5LS41NzcgMS42NzMgMS42NzMgMCAwIDEtLjE1NC0uNDU5LjI1LjI1IDAgMCAwLS4wODItLjIyYy0uMDMyLS4wMjMtLjA3LS4wNDMtLjEwOS0uMDYtLjM3Mi0uMTYtLjc0NC0uMzQ2LTEuMTY0LS43MTZhLjc1Ljc1IDAgMCAxLS4xOTktLjIwNi43NS43NSAwIDAgMS0uMjE4LS4xNTRsLS4yMDgtLjE2NmExLjIzNSAxLjIzNSAwIDAgMC0uMjQ4LS4xNTYgMi45NzcgMi45NzcgMCAwIDAtLjQ5Ny0uMjU1Yy0uMTQ0LS4wNTItLjI4Ny0uMDk3LS40MjctLjEzNmwtLjIyNi0uMDYxYy0uMDctLjAxNy0uMTQtLjAzNC0uMjEtLjA1Yy0uMDM1LS4wMDctLjA3LS4wMTUtLjEwNC0uMDIyYy0uMjE0LS4wNDItLjQyLS4wODQtLjYxNy0uMTI2bC0uMjQ3LS4wNTVhLjc1Ljc1IDAgMCAxLS4wMjQtLjAwN2MtLjIzMy0uMDI5LS40NTgtLjA1OC0uNjg2LS4wODZsLS4xOC0uMDI1Yy0uMTc4LS4wMjYtLjM1MS0uMDU1LS41MTYtLjA4NmwtLjI4NS0uMDU2Yy0uMTMtLjAyNC0uMjU1LS4wNDgtLjM3NS0uMDczbC0uNjIzLS4xMzVjLS4xMDQtLjAyNC0uMjA2LS4wNTItLjMwNS0uMDhMLjI2OCAyLjIyNWEuNzUuNzUgMCAwIDEtLjI1LS41OTdMLjQ1MS40NzlhLjc1.NzUgMCAwIDEtLjE0Ni0uODIyLjcuNyAwIDAgMC0uMDczLS4wMTNsLS4zMDgtLjAyYS42NTQuNjU0IDAgMCAxLS40MDItLjEzNmwtLjEwMS0uMDcyLS4wNi0uMDM4LS4wMzgtLjAyM2MtLjAyOC0uMDE4LS4wNTQtLjAzNC0uMDc5LS4wNDkuMDUuMDM0LjEwMS4wNjcuMTUuMTAzYy4xNzcuMTI5LjMxMy4zLjM5Mi41MTZMMi4yMy4wMmMuNDgxLS4yNy43NzMtLjUyIDEuMjg4LS45MDdhLjc1.NzUgMCAwIDEtLjAyMS0xLjI0My43NS43NSAwIDAgMC0uNjktLjI0Nmw0LjA3LS43MThjLS4xNjUtLjAyOS0uMzI1LS4wNjMtLjQ4LS4xMDItLjA5Mi0uMDIyLS4xNzctLjA0NS0uMjU1LS4wNjlMLjE4IDEzLjM4OWE3IDcgMCAwIDAgMTUuMjY4LjE2NC43NS43NSAwIDAgMC0uNjItLjUzMnYtLjk4NGExLjI1IDEuMjUgMCAwIDEtLjg0LS4yNjJjLS4zOTctLjMyNy0uOTAzLS41OTMtMS4zMjgtLjcyMi0uMDc0LS4wMjQtLjE1LS4wNDktLjIyNi0uMDc0bC0uMzE0LS4xMDNhNi45NzcgNi45NzcgMCAwIDAtLjA0NC0uMDE4Yy0uMDY2LS4wMjQtLjEyOC0uMDQ3LS4xODgtLjA3MWwtLjM1LS4xNTJhMS4yNTggMS4yNTggMCAwIDEtLjc0My0uMjY3LjQ3LjQ3IDAgMCAwLS4xLS4wNTMuNzUuNzUgMCAwIDEtLjc0Ny0uNDgxIDcuNTYgNy41NiAwIDAgMC0xLjM2LTEuNzcyYy0uNDgzLS40NDYtMS4wMzktLjgxNy0xLjYzNS0xLjExOC0uNzk0LS4zOTYtMS42NzMtLjU4OC0yLjYxNi0uNTkzYTEuMjU4IDEuMjU4IDAgMCAxLS45NDctLjQ5NSAxLjI2MSAxLjI2MSAwIDAgMS0uNzk0LTEuNzg2IDYuOTcgNi45NyAwIDAgMC0zLjUyMy0uNTg3IDIuNzMzIDIuNzMzIDAgMCAwLTIuNDI2LTMuNjY4Yy0uMTA5LS4xNDUtLjE5LS4zMTItLjIyLS41IDAtLjAwMiAwLS4wMDMgMC0uMDA1VjBhLjc0OS43NDkgMCAwIDEtLjc1LS43NWgtMi41YTEuMjUgMS4yNSAwIDAgMS0uMjE4LS45NzQuNy43IDAgMCAwLS4xNS0uMDExYTMuNjM1IDMuNjM1IDAgMCAwLS40NjItLjA4IDEuMjUgMS4yNSAwIDAgMS0uOTgtLjU1MmwtLjAyLS4wNjktLjAwMS0uMDAzYTEuMzkxIDEuMzkxIDAgMCAxLS40NjgtLjU3NkwtLjAxLjA4YTYuOTkgNi45OSAwIDAgMCA4LTE1eiIvPgo8L3N2Zz4=)](https://github.com/farhan-swe/travel-group-social-system)
 
-[![Social System](https://img.shields.io/badge/Project-Social%20System-darkgreen?style=for-the-badge)](https://github.com/khdxsohee/Travel-Group-Social-System-PHP-MYSQL)
-[![Travel Niche](https://img.shields.io/badge/Niche-Travel-teal?style=for-the-badge)](https://github.com/khdxsohee/Travel-Group-Social-System-PHP-MYSQL)
+[![Social System](https://img.shields.io/badge/Project-Social%20System-darkgreen?style=for-the-badge)](https://github.com/farhan-swe/Travel-Group-Social-System-PHP-MYSQL)
+[![Travel Niche](https://img.shields.io/badge/Niche-Travel-teal?style=for-the-badge)](https://github.com/farhan-swe/Travel-Group-Social-System-PHP-MYSQL)
 
 ## 📥 Installation & Setup Guide (Using XAMPP)
 
@@ -115,10 +115,10 @@ If you face any issues or want to contribute, feel free to contact me or open an
 ## 📃 License
 
 This project is proprietary and closed-source.  
-All rights reserved © khdxsohee 2025.   
+All rights reserved © farhan-swe 2025.   
 Unauthorized use is strictly prohibited.  
 You may not copy, modify, distribute, or use this project without explicit written permission from the author.
-See [LICENSE.txt](https://github.com/khdxsohee/Travel-Group-Social-System-PHP-MYSQL/blob/main/LICENSE.TXT)) for full details.
+See [LICENSE.txt](https://github.com/farhan-swe/Travel-Group-Social-System-PHP-MYSQL/blob/main/LICENSE.TXT)) for full details.
 
 ---
 
@@ -126,7 +126,7 @@ See [LICENSE.txt](https://github.com/khdxsohee/Travel-Group-Social-System-PHP-MY
 
 ---
 
-### Author: khdxsohee
+### Author: farhan-swe
 
 ### Date: July 6, 2025
 
@@ -149,10 +149,10 @@ See [LICENSE.txt](https://github.com/khdxsohee/Travel-Group-Social-System-PHP-MY
       * 3.4. Public and Private Group Chats
       * 3.5. User Profiles and Group Management
       * 3.6. Responsive User Interface
-      * 3.7. The "Khdxsohee Travels" Landing Page Integration
+      * 3.7. The "farhan-swe Travels" Landing Page Integration
 4.  **Detailed File Analysis**
       * 4.1. Frontend Files
-          * `index.html` (Khdxsohee Travels Landing Page)
+          * `index.html` (farhan-swe Travels Landing Page)
           * `style.css` (Main Styling)
           * `script.js` (Frontend JavaScript)
           * `chatbot.html` (Chatbot Interface) - *Note: This seems to be a standalone component, its integration method needs to be clarified.*
@@ -214,7 +214,7 @@ See [LICENSE.txt](https://github.com/khdxsohee/Travel-Group-Social-System-PHP-MY
 
 The "Travel Group Social System with Chat" is a robust, web-based application designed to foster a community around travel and adventure. Built using PHP for backend logic and MySQL for data management, alongside a dynamic frontend powered by HTML, CSS, and JavaScript, this system provides a comprehensive platform for users to connect, communicate, and organize travel-related activities.
 
-A key differentiator of this project is its integrated, real-time-like chat functionality, reminiscent of popular messaging applications like WhatsApp, enabling seamless communication among users, both individually and within groups. Furthermore, the project seamlessly integrates a dedicated "Khdxsohee Travels" landing page, serving as an attractive public face and primary entry point for potential users.
+A key differentiator of this project is its integrated, real-time-like chat functionality, reminiscent of popular messaging applications like WhatsApp, enabling seamless communication among users, both individually and within groups. Furthermore, the project seamlessly integrates a dedicated "farhan-swe Travels" landing page, serving as an attractive public face and primary entry point for potential users.
 
 ### 1.2. Core Functionality and Vision
 
@@ -224,7 +224,7 @@ The primary vision for this project is to create a digital space where travel en
   * **Discover and Join Groups:** Find communities based on interests (e.g., mountain trekking, beach holidays, cultural tours).
   * **Communicate Effectively:** Engage in private one-to-one conversations and participate in dynamic group chats.
   * **Organize Trips:** (Implicitly, through group discussions) facilitate the planning of shared travel experiences.
-  * **Explore Destinations & Packages:** Get inspired by curated content (via the Khdxsohee Travels landing page).
+  * **Explore Destinations & Packages:** Get inspired by curated content (via the farhan-swe Travels landing page).
 
 The project aims to be a social hub for travelers, offering tools for interaction that go beyond static forums.
 
@@ -262,7 +262,7 @@ A typical XAMPP project structure for this application would look like this (ass
 
 ```
 travel_group_social_system/
-├── index.html                  <-- Khdxsohee Travels Landing Page
+├── index.html                  <-- farhan-swe Travels Landing Page
 ├── index.php                   <-- Main PHP entry point / Redirection logic
 ├── logout.php                  <-- Handles user logout
 ├── style.css                   <-- Main CSS for landing page and possibly other shared styles
@@ -301,9 +301,9 @@ travel_group_social_system/
 
 1.  **Initial Access:** A user navigates to `http://localhost/travel_group_social_system/`.
 2.  **Redirection (`index.php`):** The `index.php` script immediately checks if the user is logged in.
-      * If **not logged in**: It redirects them to `index.html` (the Khdxsohee Travels landing page).
+      * If **not logged in**: It redirects them to `index.html` (the farhan-swe Travels landing page).
       * If **already logged in**: It also redirects them to `index.html`. *This suggests `index.html` is the primary entry point for all users, logged in or not, with deeper application features accessible via internal links from this landing page after login.*
-3.  **Landing Page (`index.html`):** The beautifully styled "Khdxsohee Travels" page is displayed. It uses `style.css` for main styling and `script.js` for client-side interactivity (like the hamburger menu). It links to various sections (`#home`, `#groups`, `#chats`, `#register`, `#destinations`, `#packages`) and likely to PHP-driven parts of the social system for actual user interaction (e.g., `pages/groups.php`).
+3.  **Landing Page (`index.html`):** The beautifully styled "farhan-swe Travels" page is displayed. It uses `style.css` for main styling and `script.js` for client-side interactivity (like the hamburger menu). It links to various sections (`#home`, `#groups`, `#chats`, `#register`, `#destinations`, `#packages`) and likely to PHP-driven parts of the social system for actual user interaction (e.g., `pages/groups.php`).
 4.  **User Authentication:**
       * **Registration:** Users fill out a form (likely on `register.php`), submit data to a PHP script, which processes it, hashes passwords, and inserts into the `users` table.
       * **Login:** Users submit credentials to a PHP script (likely `login.php`), which verifies against the `users` table, manages sessions, and redirects upon success.
@@ -352,9 +352,9 @@ travel_group_social_system/
 
   * The frontend is designed with responsiveness in mind, ensuring a smooth and consistent user experience across various devices, from desktops to tablets and mobile phones. This is achieved through CSS media queries and flexible layouts. The `index.html` and `style.css` specifically demonstrate robust responsive design principles.
 
-### 3.7. The "Khdxsohee Travels" Landing Page Integration
+### 3.7. The "farhan-swe Travels" Landing Page Integration
 
-  * The `index.html` file serves as the vibrant and engaging public landing page for "Khdxsohee Travels."
+  * The `index.html` file serves as the vibrant and engaging public landing page for "farhan-swe Travels."
   * It showcases key aspects of the travel service:
       * **Hero Section:** Catchy slogan "EXPLORE THE WORLD" with calls to action.
       * **Groups Section:** Highlights various travel group types (Mountain Trekkers, Beach Enthusiasts, Cultural Explorers), encouraging users to join.
@@ -365,7 +365,7 @@ travel_group_social_system/
       * **Navigation:** A sticky header with smooth scrolling links to different sections.
       * **Responsive Header:** Includes a hamburger menu for seamless navigation on mobile devices.
   * This landing page acts as a funnel, introducing potential users to the travel services and prompting them to register and engage with the social system.
-  * The `index.php` file currently acts as a redirection hub, sending all incoming requests to `index.html`, making the Khdxsohee Travels landing page the primary entry point regardless of login status. This implies that the main application features (dashboard, actual chat interface, group lists for logged-in users) are accessible via links *from* this `index.html` page, once authenticated.
+  * The `index.php` file currently acts as a redirection hub, sending all incoming requests to `index.html`, making the farhan-swe Travels landing page the primary entry point regardless of login status. This implies that the main application features (dashboard, actual chat interface, group lists for logged-in users) are accessible via links *from* this `index.html` page, once authenticated.
 
 -----
 
@@ -375,7 +375,7 @@ This section provides a deeper look into the purpose and content of each signifi
 
 ### 4.1. Frontend Files
 
-  * **`index.html` (Khdxsohee Travels Landing Page)**
+  * **`index.html` (farhan-swe Travels Landing Page)**
 
       * **Purpose:** The main public-facing landing page. It's designed to attract users, showcase travel offerings, and guide them towards registration and engagement with the social platform.
       * **Content:**
@@ -436,7 +436,7 @@ This section provides a deeper look into the purpose and content of each signifi
               * `else`: If a user IS logged in, it *also* redirects to `index.html`.
           * `header('Location: index.html');`: The core redirect statement.
           * `exit();`: Crucial for stopping script execution after a redirect header is sent.
-      * **Behavior Analysis:** This `index.php` ensures that regardless of whether a user is logged in or not, they are always first directed to the `index.html` (Khdxsohee Travels landing page). This implies that navigation to the actual social system features (e.g., `dashboard.php`, `groups.php` with user-specific content) must happen *from* `index.html` and typically after a user has logged in via a separate login form/page.
+      * **Behavior Analysis:** This `index.php` ensures that regardless of whether a user is logged in or not, they are always first directed to the `index.html` (farhan-swe Travels landing page). This implies that navigation to the actual social system features (e.g., `dashboard.php`, `groups.php` with user-specific content) must happen *from* `index.html` and typically after a user has logged in via a separate login form/page.
 
   * **`logout.php` (Session Management)**
 
@@ -444,7 +444,7 @@ This section provides a deeper look into the purpose and content of each signifi
       * **Content:**
           * `session_start();`: Ensures the session is active before destruction.
           * `session_destroy();`: Destroys all data registered to a session.
-          * `header('Location: index.html');`: Redirects the user back to the Khdxsohee Travels landing page after logout.
+          * `header('Location: index.html');`: Redirects the user back to the farhan-swe Travels landing page after logout.
           * `exit();`: Stops script execution.
 
   * ***Expected but not provided PHP files:***
@@ -618,7 +618,7 @@ This guide provides step-by-step instructions to set up and run the "Travel Grou
     ```
     http://localhost/travel_group_social_system/
     ```
-3.  You should now see the "Khdxsohee Travels" landing page (`index.html`).
+3.  You should now see the "farhan-swe Travels" landing page (`index.html`).
 
 -----
 
@@ -772,7 +772,7 @@ This project provides a solid foundation. Here are potential future enhancements
       * Manage users (view, edit, block, delete).
       * Manage groups (create, edit, delete, moderate content).
       * View chat logs for moderation purposes.
-      * Manage static content on the Khdxsohee Travels landing page.
+      * Manage static content on the farhan-swe Travels landing page.
 
 ### 10.5. Notifications
 
@@ -798,14 +798,14 @@ This project provides a solid foundation. Here are potential future enhancements
 ## 12\. Licensing Information
 
   * This project is **proprietary and closed-source.**
-  * All rights reserved © khdxsohee 2025.
+  * All rights reserved © farhan-swe 2025.
   * You may **not** copy, modify, distribute, or use this project without explicit written permission from the author.
 
 -----
 
 ## 13\. Author Information
 
-  * **Created by:** khdxsohee
+  * **Created by:** farhan-swe
 
 -----
 
